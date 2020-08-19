@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff4301;
+}
+#header-img {
+    height: 70px;
+}
+#nav-bar {
+    width: 36%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+#main {
+    margin-top: 100px;
+    padding: 1rem 3rem;
+}
+
+#services {
+    margin-bottom: 20px;
+}
+.services-title {
+    text-align: center;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.service-img {
+    width: 80%;
+    padding: 20px 0;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about-description {
+    padding-bottom: 10px;
+}
+#video {
+    width: 90%;
+}
+
+#contact {
+    margin-top: 50px;
+    padding: 20px 1em;
+}
+
+#email {
+    width: 70%;
+    padding: 0 10px;
+}
+#submit {
+    width: 20%;
+    background-color: #ff4301;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #video {
+        width: 560px;
+    }
+    #email {
+        width: 50%;
+        padding: 0 10px;
+    }
+}
